@@ -1,4 +1,4 @@
-From 49d74639d19ec3ae9810a1d6ae6c0ff725c75881 Mon Sep 17 00:00:00 2001
+From c4a0090d5eb505a1eddaa9427c9ba06d697e848c Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Tue, 1 Feb 2022 12:20:20 +0000
 Subject: [PATCH] drm/panel: Add and initialise an orientation field to

@@ -1,8 +1,8 @@
-From bb3a24c168067c1813b9b607b6c44c43a4a889e8 Mon Sep 17 00:00:00 2001
+From 2096f84e1f6a4b8a8bbf6d03669f7ab488d294f0 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Thu, 13 Jan 2022 11:30:42 +0000
-Subject: [PATCH] drm/vc4: Disable Gamma control on HVS5 due to issues
- writing the table
+Subject: [PATCH] drm/vc4: Disable Gamma control on HVS5 due to issues writing
+ the table
 
 Still under investigation, but the conditions under which the HVS
 will accept values written to the gamma PWL are not straightforward.

@@ -1,4 +1,4 @@
-From 808b5ec5bddc978f7dcb3e7afafd959503213b1c Mon Sep 17 00:00:00 2001
+From 533893104c9123ae0763e07819865a84716b2a0b Mon Sep 17 00:00:00 2001
 From: Phil Elwell <phil@raspberrypi.com>
 Date: Tue, 24 Jan 2023 16:54:16 +0000
 Subject: [PATCH] ARM: dts: Set the LED default-state to "off"

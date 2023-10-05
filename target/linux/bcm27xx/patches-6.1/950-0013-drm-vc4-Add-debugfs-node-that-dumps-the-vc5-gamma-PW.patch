@@ -1,8 +1,8 @@
-From 3905be68859b15731ec41b3d22cd1a9069375f7f Mon Sep 17 00:00:00 2001
+From ec8b235fd455b1dc8b7253b852885699bee6a77e Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Wed, 28 Apr 2021 12:32:10 +0200
-Subject: [PATCH] drm/vc4: Add debugfs node that dumps the vc5 gamma
- PWL entries
+Subject: [PATCH] drm/vc4: Add debugfs node that dumps the vc5 gamma PWL
+ entries
 
 This helps with debugging the conversion from a 256 point gamma LUT to
 16 point PWL entries as used by the BCM2711.

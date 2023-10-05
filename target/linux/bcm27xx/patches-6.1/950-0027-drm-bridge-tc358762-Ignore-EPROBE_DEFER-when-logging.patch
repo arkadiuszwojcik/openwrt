@@ -1,8 +1,7 @@
-From 135340b06a02d3a5ad0b214b3c0d59f6adb79dba Mon Sep 17 00:00:00 2001
+From 7c44ed9ca3cd7dc27e46787f24e7ad8642e5205d Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Thu, 20 Jan 2022 17:29:36 +0000
-Subject: [PATCH] drm/bridge: tc358762: Ignore EPROBE_DEFER when
- logging errors
+Subject: [PATCH] drm/bridge: tc358762: Ignore EPROBE_DEFER when logging errors
 
 mipi_dsi_attach can fail due to resources not being available
 yet, therefore do not log error messages should they occur.

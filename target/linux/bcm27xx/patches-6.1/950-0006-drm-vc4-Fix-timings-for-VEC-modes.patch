@@ -1,4 +1,4 @@
-From 607f72974246d1495059932286b3d5307c1645a5 Mon Sep 17 00:00:00 2001
+From 63a3ddde00391c56a5d3730e455a8d8b8aed52af Mon Sep 17 00:00:00 2001
 From: Mateusz Kwiatkowski <kfyatek+publicgit@gmail.com>
 Date: Thu, 15 Jul 2021 01:07:30 +0200
 Subject: [PATCH] drm/vc4: Fix timings for VEC modes

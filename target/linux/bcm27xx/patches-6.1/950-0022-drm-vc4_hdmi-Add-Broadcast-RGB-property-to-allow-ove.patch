@@ -1,8 +1,8 @@
-From b975642ea1ebaf66f6ed0ac403dfa82fa9d0e206 Mon Sep 17 00:00:00 2001
+From e08a84bfd99dbc8b68a848c7d84ebc53037b5ef3 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Wed, 8 Apr 2020 16:12:02 +0100
-Subject: [PATCH] drm/vc4_hdmi: Add Broadcast RGB property to allow
- override of RGB range
+Subject: [PATCH] drm/vc4_hdmi: Add Broadcast RGB property to allow override of
+ RGB range
 
 Copy Intel's "Broadcast RGB" property semantics to add manual override
 of the HDMI pixel range for monitors that don't abide by the content

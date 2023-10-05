@@ -1,8 +1,7 @@
-From 39a1d2daa0440779a0790ca32543f30220b451da Mon Sep 17 00:00:00 2001
+From eda7d3374d98cd03314060529bfb682a7ec16919 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Tue, 2 Nov 2021 16:01:36 +0000
-Subject: [PATCH] drm: Check whether the gamma lut has changed before
- updating
+Subject: [PATCH] drm: Check whether the gamma lut has changed before updating
 
 drm_crtc_legacy_gamma_set updates the gamma_lut blob unconditionally,
 which leads to unnecessary reprogramming of hardware.

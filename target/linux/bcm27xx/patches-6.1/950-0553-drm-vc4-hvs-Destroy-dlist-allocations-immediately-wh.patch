@@ -1,8 +1,8 @@
-From 9be7327ba367a71d75ecd86688b9fb317444529c Mon Sep 17 00:00:00 2001
+From 7819be20b18bcdfc1c12cc30f10fbcc2f939c214 Mon Sep 17 00:00:00 2001
 From: Maxime Ripard <maxime@cerno.tech>
 Date: Wed, 25 Jan 2023 13:05:26 +0100
-Subject: [PATCH] drm/vc4: hvs: Destroy dlist allocations immediately
- when running a test
+Subject: [PATCH] drm/vc4: hvs: Destroy dlist allocations immediately when
+ running a test
 
 When running a kunit test, the driver runs with a mock device. As such,
 any attempt to read or write to a hardware register will fail the

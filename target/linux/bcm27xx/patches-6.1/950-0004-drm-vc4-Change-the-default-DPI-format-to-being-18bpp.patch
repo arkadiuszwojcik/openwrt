@@ -1,8 +1,8 @@
-From 6f0bbf91998cb04030731bc8b254209345cbe9f1 Mon Sep 17 00:00:00 2001
+From 0cf1f0478d98b150a60c29121642a182c5ae3a2a Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Fri, 12 Feb 2021 17:31:37 +0000
-Subject: [PATCH] drm/vc4: Change the default DPI format to being
- 18bpp, not 24.
+Subject: [PATCH] drm/vc4: Change the default DPI format to being 18bpp, not
+ 24.
 
 DPI hasn't really been used up until now, so the default has
 been meaningless.

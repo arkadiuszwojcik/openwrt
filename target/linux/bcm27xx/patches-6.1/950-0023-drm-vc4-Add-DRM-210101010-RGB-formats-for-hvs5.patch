@@ -1,4 +1,4 @@
-From 496704e90c065015a808fc31356c7aecc5bfeccd Mon Sep 17 00:00:00 2001
+From b7b1c9cf83024b7e1ee1d42f06d9b233b8a7fbf1 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Mon, 31 Jan 2022 16:28:43 +0000
 Subject: [PATCH] drm/vc4: Add DRM 210101010 RGB formats for hvs5.

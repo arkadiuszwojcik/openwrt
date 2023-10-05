@@ -1,4 +1,4 @@
-From fc4d71fb629da4be7fee128bced80b9625acf3bb Mon Sep 17 00:00:00 2001
+From 2e1942093c64a4de10821d39c81d9f993c245d2e Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Wed, 10 Nov 2021 16:36:12 +0000
 Subject: [PATCH] drm/vc4: Validate the size of the gamma_lut

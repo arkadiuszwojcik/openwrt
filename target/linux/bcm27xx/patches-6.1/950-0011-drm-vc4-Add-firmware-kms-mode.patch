@@ -1,4 +1,4 @@
-From 2f74e0d6dd9f545a3b1dcc8d3cdf0ccf55a6f7d0 Mon Sep 17 00:00:00 2001
+From 96ba087467435a24873524ecc9af81f42c88315c Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Mon, 7 Sep 2020 17:32:27 +0100
 Subject: [PATCH] drm/vc4: Add firmware-kms mode

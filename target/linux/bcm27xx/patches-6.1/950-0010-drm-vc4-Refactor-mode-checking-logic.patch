@@ -1,4 +1,4 @@
-From 3246c9abe5f4358cc5c60b8621485faa9883d06b Mon Sep 17 00:00:00 2001
+From 76c6b9fed60aed8be14bd370f9ca29e9d5c0dd41 Mon Sep 17 00:00:00 2001
 From: Mateusz Kwiatkowski <kfyatek+publicgit@gmail.com>
 Date: Thu, 15 Jul 2021 01:08:05 +0200
 Subject: [PATCH] drm/vc4: Refactor mode checking logic

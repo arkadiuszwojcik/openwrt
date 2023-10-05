@@ -1,4 +1,4 @@
-From 5590c79c417064363236f24ffe40d87d6cfd128e Mon Sep 17 00:00:00 2001
+From a1107b80730db569a2cf5cc6709c5afc6c6cb2ba Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Mon, 7 Feb 2022 17:14:51 +0000
 Subject: [PATCH] drm/vc4: Move DSI initialisation to encoder_mode_set.

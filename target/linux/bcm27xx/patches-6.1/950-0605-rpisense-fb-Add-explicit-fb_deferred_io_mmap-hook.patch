@@ -1,4 +1,4 @@
-From 4b9950c6574aa5c9302b3b8bbf44fd31ee1cad7a Mon Sep 17 00:00:00 2001
+From 82bc45cccc3d69d90fc88449aacf8e9267ce688a Mon Sep 17 00:00:00 2001
 From: Phil Elwell <phil@raspberrypi.com>
 Date: Mon, 27 Mar 2023 10:25:25 +0100
 Subject: [PATCH] rpisense-fb: Add explicit fb_deferred_io_mmap hook
@@ -16,7 +16,7 @@ Signed-off-by: Phil Elwell <phil@raspberrypi.com>
 
 --- a/drivers/video/fbdev/rpisense-fb.c
 +++ b/drivers/video/fbdev/rpisense-fb.c
-@@ -191,6 +191,7 @@ static struct fb_ops rpisense_fb_ops = {
+@@ -201,6 +201,7 @@ static struct fb_ops rpisense_fb_ops = {
  	.fb_copyarea	= rpisense_fb_copyarea,
  	.fb_imageblit	= rpisense_fb_imageblit,
  	.fb_ioctl	= rpisense_fb_ioctl,

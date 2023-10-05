@@ -1,4 +1,4 @@
-From 5bcc290bd33f2b2fb7c6d7b30555b40b1074fd93 Mon Sep 17 00:00:00 2001
+From 26e6f801d19bf3cad202d458d6d78cb9e7ca18e2 Mon Sep 17 00:00:00 2001
 From: Mateusz Kwiatkowski <kfyatek+publicgit@gmail.com>
 Date: Thu, 15 Jul 2021 01:07:53 +0200
 Subject: [PATCH] drm/vc4: Fix definition of PAL-M mode

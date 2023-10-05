@@ -1,8 +1,7 @@
-From b5b92244feaa5b39a66fe0dace0d25d576079f0d Mon Sep 17 00:00:00 2001
+From 1ea93963903209cf478e7be0ab1d14cd5ccf6ef0 Mon Sep 17 00:00:00 2001
 From: Mateusz Kwiatkowski <kfyatek+publicgit@gmail.com>
 Date: Thu, 15 Jul 2021 01:08:01 +0200
-Subject: [PATCH] drm/vc4: Allow setting the TV norm via module
- parameter
+Subject: [PATCH] drm/vc4: Allow setting the TV norm via module parameter
 
 Similar to the ch7006 and nouveau drivers, introduce a "tv_mode" module
 parameter that allow setting the TV norm by specifying vc4.tv_norm= on

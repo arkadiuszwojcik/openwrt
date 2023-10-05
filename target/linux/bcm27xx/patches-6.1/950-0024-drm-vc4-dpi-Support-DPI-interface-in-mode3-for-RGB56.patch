@@ -1,8 +1,7 @@
-From 1c22021723d142524d744f6e2a6d81fc39b1b366 Mon Sep 17 00:00:00 2001
+From 794de1fd48d25fb83fe2130d3550b7f64dfc4565 Mon Sep 17 00:00:00 2001
 From: Chris Morgan <macromorgan@hotmail.com>
 Date: Fri, 28 Jan 2022 17:39:54 -0600
-Subject: [PATCH] drm/vc4: dpi: Support DPI interface in mode3 for
- RGB565
+Subject: [PATCH] drm/vc4: dpi: Support DPI interface in mode3 for RGB565
 
 Add support for the VC4 DPI driver to utilize DPI mode 3. This is
 defined here as xxxRRRRRxxGGGGGGxxxBBBBB:

@@ -1,4 +1,4 @@
-From 6da5134dcde68af6d86003931375ca1a6e6d0169 Mon Sep 17 00:00:00 2001
+From 4ec29d3ccb789e9407ec20428347be3b1b808371 Mon Sep 17 00:00:00 2001
 From: Joerg Quinten <aBUGSworstnightmare@gmail.com>
 Date: Fri, 18 Jun 2021 13:02:29 +0200
 Subject: [PATCH] Support RPi DPI interface in mode6 for 18-bit color

@@ -1,4 +1,4 @@
-From 7f4d21e48d07ada294c9c383b350860aa20efeea Mon Sep 17 00:00:00 2001
+From 078f92aa8a32d13b04ba549c5a768f4731f5a0a9 Mon Sep 17 00:00:00 2001
 From: Phil Elwell <phil@raspberrypi.com>
 Date: Tue, 24 Jan 2023 11:34:38 +0000
 Subject: [PATCH] overlays: i2c-sensor: Add SHT4X support

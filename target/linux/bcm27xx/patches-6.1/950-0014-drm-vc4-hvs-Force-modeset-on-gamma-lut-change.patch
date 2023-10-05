@@ -1,4 +1,4 @@
-From 132865ef0ce76d66a27152eee131ba4335639df4 Mon Sep 17 00:00:00 2001
+From c336a69d38072a7d01b414d399682f23a9451af6 Mon Sep 17 00:00:00 2001
 From: Maxime Ripard <maxime@cerno.tech>
 Date: Mon, 14 Jun 2021 15:28:30 +0200
 Subject: [PATCH] drm/vc4: hvs: Force modeset on gamma lut change

@@ -1,8 +1,7 @@
-From 588c5e6269307ccd908986b7514676d6729e0e0d Mon Sep 17 00:00:00 2001
+From a2288751d9649935aa34fd3f2292f2c1245b7912 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Tue, 19 May 2020 16:20:30 +0100
-Subject: [PATCH] drm/vc4: Add FKMS as an acceptable node for dma
- ranges.
+Subject: [PATCH] drm/vc4: Add FKMS as an acceptable node for dma ranges.
 
 Under FKMS, the firmware (via FKMS) also requires the VideoCore cache
 aliases for image planes, as defined by the dma-ranges under /soc.

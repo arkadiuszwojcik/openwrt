@@ -1,8 +1,7 @@
-From e7950beaf2123170d65709df3988c25a280c05f1 Mon Sep 17 00:00:00 2001
+From 908be70b350117c6275cfa17ce10a9f17d2d2080 Mon Sep 17 00:00:00 2001
 From: David Gow <davidgow@google.com>
 Date: Fri, 25 Nov 2022 16:43:05 +0800
-Subject: [PATCH] kunit: Use the static key when retrieving the current
- test
+Subject: [PATCH] kunit: Use the static key when retrieving the current test
 
 In order to detect if a KUnit test is running, and to access its
 context, the 'kunit_test' member of the current task_struct is used.

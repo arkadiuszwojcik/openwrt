@@ -1,4 +1,4 @@
-From ab6f22f1747903266a88b73f628eb4f89474c84c Mon Sep 17 00:00:00 2001
+From d0a059b5eb7cf6c2c8f1f85ac302564d4af361cc Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Wed, 15 Dec 2021 17:47:14 +0000
 Subject: [PATCH] drm/vc4: Convert vc4_dsi to use atomic

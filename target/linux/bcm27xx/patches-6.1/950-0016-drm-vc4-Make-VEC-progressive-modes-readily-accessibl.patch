@@ -1,8 +1,7 @@
-From bfd6f67af0450e29378d390386210ac91c5dcfce Mon Sep 17 00:00:00 2001
+From 72d42f001f74f94de1287d6f20951ede2b6ae1af Mon Sep 17 00:00:00 2001
 From: Mateusz Kwiatkowski <kfyatek+publicgit@gmail.com>
 Date: Thu, 15 Jul 2021 01:08:11 +0200
-Subject: [PATCH] drm/vc4: Make VEC progressive modes readily
- accessible
+Subject: [PATCH] drm/vc4: Make VEC progressive modes readily accessible
 
 Add predefined modelines for the 240p (NTSC) and 288p (PAL) progressive
 modes, and report them through vc4_vec_connector_get_modes().

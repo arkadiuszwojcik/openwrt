@@ -1,4 +1,4 @@
-From 23c8491ac23b95c0557fc398f338ecc62393cf53 Mon Sep 17 00:00:00 2001
+From 9406dfe749355cb4384dc3b4a25f447df49b8d7c Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Mon, 8 Nov 2021 17:32:45 +0000
 Subject: [PATCH] drm/vc4: Enable gamma block only when required.

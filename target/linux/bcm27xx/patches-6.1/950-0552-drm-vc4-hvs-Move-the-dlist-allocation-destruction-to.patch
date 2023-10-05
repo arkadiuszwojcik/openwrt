@@ -1,8 +1,8 @@
-From 718d920a2dfd680811bdf987706b50a6e23f0527 Mon Sep 17 00:00:00 2001
+From 3672ad175280e5341d11a08252a6c3912040ea3c Mon Sep 17 00:00:00 2001
 From: Maxime Ripard <maxime@cerno.tech>
 Date: Wed, 25 Jan 2023 12:54:36 +0100
-Subject: [PATCH] drm/vc4: hvs: Move the dlist allocation destruction
- to a function
+Subject: [PATCH] drm/vc4: hvs: Move the dlist allocation destruction to a
+ function
 
 We'll need to destroy a dlist allocation in multiple code paths, so
 let's move it to a separate function.

@@ -1,8 +1,8 @@
-From a4614b6f6c4e3a9ef80c88f272c1503b91f7ef8c Mon Sep 17 00:00:00 2001
+From 3668162722e7d729c5153f8d2def481fb5d924eb Mon Sep 17 00:00:00 2001
 From: Mateusz Kwiatkowski <kfyatek+publicgit@gmail.com>
 Date: Thu, 15 Jul 2021 01:08:08 +0200
-Subject: [PATCH] drm/vc4: Relax VEC modeline requirements and add
- progressive mode support
+Subject: [PATCH] drm/vc4: Relax VEC modeline requirements and add progressive
+ mode support
 
 Make vc4_vec_encoder_atomic_check() accept arbitrary modelines, as long
 as they result in somewhat sane output from the VEC. The bounds have

@@ -1,8 +1,7 @@
-From bd58cbe5c5155279ccd85c29ddef53094cf6dc81 Mon Sep 17 00:00:00 2001
+From c62a538e8320a83a41604bd5b1279b3fc9bf2cd5 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Wed, 15 Dec 2021 17:44:49 +0000
-Subject: [PATCH] drm/vc4: Remove splitting the bridge chain from the
- driver.
+Subject: [PATCH] drm/vc4: Remove splitting the bridge chain from the driver.
 
 Splitting the bridge chain fails for atomic bridges as the
 framework can't add the relevant state in

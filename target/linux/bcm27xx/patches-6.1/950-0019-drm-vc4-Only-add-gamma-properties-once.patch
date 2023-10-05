@@ -1,4 +1,4 @@
-From 7b997c4910042491c90202df414f0e574a320258 Mon Sep 17 00:00:00 2001
+From af08817e205a86e4080d3d1e0614eb0d0c88e18b Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Mon, 8 Nov 2021 18:25:49 +0000
 Subject: [PATCH] drm/vc4: Only add gamma properties once.

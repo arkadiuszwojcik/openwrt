@@ -1,8 +1,7 @@
-From b0b5ae1ea6701cf9395f3132d559a5379a4fb73e Mon Sep 17 00:00:00 2001
+From c91ffcea620b275b4f81b1f64d59bce1d34e0165 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Fri, 11 Feb 2022 14:15:26 +0000
-Subject: [PATCH] drm/vc4: Remove entry to ULPS from vc4_dsi
- post_disable
+Subject: [PATCH] drm/vc4: Remove entry to ULPS from vc4_dsi post_disable
 
 Post_disable was sending the D-PHY sequence to put any device
 into ULPS suspend mode, and then cutting power to the DSI block.

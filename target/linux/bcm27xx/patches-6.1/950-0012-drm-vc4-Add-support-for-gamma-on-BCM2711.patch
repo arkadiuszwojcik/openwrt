@@ -1,4 +1,4 @@
-From 387b65c16c0d763ee4610675ce61e1072fa6cd72 Mon Sep 17 00:00:00 2001
+From edf570abd67342191588dfc244ee44cbb1365b78 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Tue, 27 Apr 2021 14:24:21 +0200
 Subject: [PATCH] drm/vc4: Add support for gamma on BCM2711

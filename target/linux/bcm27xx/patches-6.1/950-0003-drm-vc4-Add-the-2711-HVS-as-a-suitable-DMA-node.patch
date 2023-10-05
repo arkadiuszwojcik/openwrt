@@ -1,4 +1,4 @@
-From 535402af94be945587cc7c7f3346b31e3fa46bc9 Mon Sep 17 00:00:00 2001
+From 8f785f6dfffbc7cedca6e050b4d101bd9c8192f2 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Mon, 26 Oct 2020 12:38:27 +0000
 Subject: [PATCH] drm/vc4: Add the 2711 HVS as a suitable DMA node

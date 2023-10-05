@@ -1,4 +1,4 @@
-From ed34c4192a6189ef27ea4a1958ea843906afbe4d Mon Sep 17 00:00:00 2001
+From 5d37c3bfcf2d3a56d1d2ab286db453deaba1ee16 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Thu, 30 Sep 2021 17:51:16 +0100
 Subject: [PATCH] drm/vc4: Rename bridge to out_bridge

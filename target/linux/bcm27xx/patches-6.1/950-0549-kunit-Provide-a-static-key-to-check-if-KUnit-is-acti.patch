@@ -1,8 +1,8 @@
-From 0f354629c10f457751c20a230b13b1b7ac2f1fbc Mon Sep 17 00:00:00 2001
+From 3e11771d00db8fa844bb3b16d8a8f1852f3200c2 Mon Sep 17 00:00:00 2001
 From: David Gow <davidgow@google.com>
 Date: Fri, 25 Nov 2022 16:43:04 +0800
-Subject: [PATCH] kunit: Provide a static key to check if KUnit is
- actively running tests
+Subject: [PATCH] kunit: Provide a static key to check if KUnit is actively
+ running tests
 
 KUnit does a few expensive things when enabled. This hasn't been a
 problem because KUnit was only enabled on test kernels, but with a few

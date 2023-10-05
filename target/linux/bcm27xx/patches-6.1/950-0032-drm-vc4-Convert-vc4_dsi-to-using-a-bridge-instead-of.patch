@@ -1,4 +1,4 @@
-From c0611a36761fb6abf5a806bbfe417db1f4464a56 Mon Sep 17 00:00:00 2001
+From 9fb5ce099dc63a7ab9a2736edc7140f5bdf25bbc Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Wed, 15 Dec 2021 17:57:45 +0000
 Subject: [PATCH] drm/vc4: Convert vc4_dsi to using a bridge instead of

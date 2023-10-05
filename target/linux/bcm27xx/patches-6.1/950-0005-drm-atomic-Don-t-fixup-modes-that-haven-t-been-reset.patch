@@ -1,4 +1,4 @@
-From 5e5243cf497ccec7265b79cf84beb0f60550e113 Mon Sep 17 00:00:00 2001
+From b58d1fe8092ca897e866c870d3d9e15beee95696 Mon Sep 17 00:00:00 2001
 From: Dave Stevenson <dave.stevenson@raspberrypi.com>
 Date: Thu, 7 Jan 2021 16:30:55 +0000
 Subject: [PATCH] drm/atomic: Don't fixup modes that haven't been reset
